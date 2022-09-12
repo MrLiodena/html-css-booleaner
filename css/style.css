@@ -1,6 +1,6 @@
 header{
     background-image: url('../img/pattern.png');
-    background-color: rgb(53, 53, 233);
+    background-color: CornflowerBlue;
     background-size: auto;
 }
 
@@ -18,8 +18,15 @@ h1{
     font-size: 50px;
     margin-bottom: 5px;
 }
+
 .date{
     display: block;
+}
+
+.date-1{
+    display: block;
+    color: grey;
+    font-size: 20px;
 }
 .booleaner{
     color: DeepSkyBlue;
@@ -51,4 +58,32 @@ td{
 
 .colonna{
     background-color: PaleTurquoise;
+}
+
+.image-2{
+    background-image: url('../img/monitor.jpg');
+    width: 350px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scritta-1{
+    margin-left: 10px;
+    padding-top: 5px;
+    color: white;
+}
+
+.image-3{
+    background-image: url('../img/graph.jpg');
+    width: 350px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scritta-2{
+    margin-left: 10px;
+    padding-top: 5px;
+    color: white;
 }
